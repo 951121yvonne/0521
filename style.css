@@ -1,7 +1,18 @@
 html, body {
-  margin: 0; padding: 0;
-  width: 100vw; height: 100vh;
-  display: flex; justify-content: center; align-items: center;
-  background-color: #1a1a2e;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a2e; /* 科幻深藍色背景 */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
 }
-canvas { border-radius: 12px; box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+
+canvas {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6); /* 畫布立體陰影 */
+  border-radius: 12px;
+  background-color: #24243e;
+}
